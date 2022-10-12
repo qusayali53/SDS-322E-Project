@@ -7,6 +7,6 @@ Goals: Identify the variables with the most correlation to homeownership. We wou
 
 Link to Data:
 
-Information about the data:
+Information about the data:  Data are from the 2019 American Housing Survey (AHS). AHS, the most comprehensive national housing survey in the U.S., is sponsored by the Department of Housing and Urban Development and conducted by the Census Bureau. 
 
 References:
