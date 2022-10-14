@@ -1,0 +1,26 @@
+---
+title: "Data Visauzliation SDS 322E"
+output: html_document
+date: '2022-10-13'
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{R}
+summary(cars)
+library(interactions)
+library(sandwich)
+library(ggplot2)
+library(dslabs)
+library(dplyr)
+library(tidyverse)
+AHS2 <- read.csv("AHS2019NationalProjectDataset1.csv")
+ggplot(AHS2, aes(x=HHGRAD, y=HSHLDTYPE, fill=TENURE)) + geom_bar(position="dodge",stat="identity")
+
+```
+
+
+
